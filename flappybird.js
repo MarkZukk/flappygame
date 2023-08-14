@@ -156,6 +156,9 @@ function moveBird(e) {
             pipeArray = [];
             score = 0;
             gameOver = false;
+        
+    document.addEventListener('click', () => gamePlaying = true);
+    window.onclick  = () => velocityY = -6;
         }
     }
 }
